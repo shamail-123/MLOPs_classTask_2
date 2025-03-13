@@ -13,9 +13,9 @@ function Login({ toggle }) {
         });
         const data = await response.json();
         if (data.success) {
-            setMessage('✅ You have logged in successfully');
+            setMessage(' You have logged in successfully');
         } else {
-            setMessage('❌ Login failed');
+            setMessage(' Login failed');
         }
     };
 
